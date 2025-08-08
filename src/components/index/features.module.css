@@ -1,0 +1,33 @@
+
+.main {
+    width: 80vw;
+    margin: auto;
+}
+
+h2 {
+    font-size: 28px;
+    color: rgb(99, 99, 238);
+}
+
+h2 ~ p {
+    margin-left: 10px;
+}
+
+.newfeat {
+    color: red;
+}
+
+h3 {
+    color: rgb(99, 99, 238);
+    font-size: larger;
+}
+
+.featleft,
+.featright {
+    margin: auto;
+    width: 70vw;
+}
+
+.featright {
+    text-align: right;
+}

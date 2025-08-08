@@ -1,0 +1,31 @@
+
+.navbar {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.navbar > div {
+    align-content: center;
+}
+
+.buttons > span {
+    margin: 0 10px;
+    transition: 300ms;
+}
+
+.buttons > span:hover {
+    cursor: pointer;
+    color: rgb(99, 99, 238);
+    transition: 300ms;
+}
+
+.disclaimer {
+    text-align: center;
+    background-color: rgb(80, 80, 52);
+    padding: 6px;
+}
