@@ -1,0 +1,12 @@
+---
+import styles from "./feature.module.css";
+
+const { title } = Astro.props;
+---
+
+<div class={styles.module}>
+    <h2 class={styles.title}>{title}</h2>
+    <p class={styles.paragraph}>
+        <slot />
+    </p>
+</div>

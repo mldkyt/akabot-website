@@ -1,0 +1,37 @@
+---
+import Feature from "../components/features/Feature.astro";
+import Title from "../components/features/Title.astro";
+import Invite from "../components/index/Invite.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout>
+    <Title />
+    <Feature title="Anti Raid">Simple anti raid for your Discord server. Limits user joins in a short period of time.</Feature>
+    <Feature title="Automod Actions">Create additional Automod actions for your Discord Automod rules.</Feature>
+    <Feature title="Anonymous Quefessions">Have people send you anonymous quefessions in your Discord server.</Feature>
+    <Feature title="Auto React">React to messages automatically on a keyword. </Feature>
+    <Feature title="Auto Response">Respond with a message automatically on a keyword.</Feature>
+    <Feature title="Chat Revive">The Chat Revive commands revives commands if there's no seen activity for a set period of time.</Feature>
+    <Feature title="Chat Streaks">The Chat Streaks module counts how many days you've sent a message consecutively in a Discord server.</Feature>
+    <Feature title="Chat Summary">The chat summary module counts messages and then sends a message at the end of the day.</Feature>
+    <Feature title="Economy">This module introduces an economy system to Akabot, allowing users to earn, spend, and manage virtual currency within their Discord server.</Feature>
+    <Feature title="Giveaways">The Giveaways module allows server administrators to create and manage giveaways directly within their Discord server.</Feature>
+    <Feature title="Heartbeat">Configure the bot to send messages to another server on intervals to let the server know it's alive and online.</Feature>
+    <Feature title="Leveling">The Leveling module allows server administrators to implement and manage a leveling system within their Discord server.</Feature>
+    <Feature title="Logging">This module adds logging for a Discord server. It sends events into a logging channel.</Feature>
+    <Feature title="Message Time Capsule">This module allows users to schedule messages, reminders, and collection messages in Discord servers and DMs.</Feature>
+    <Feature title="Moderation">This module provides commands to perform moderation actions such as kicking, banning, timing out, and removing timeouts for users in a Discord server.</Feature>
+    <Feature title="Reaction Roles"
+        >This module allows users to assign or remove roles by reacting to messages containing specific buttons. It provides commands to create different types of reaction role setups, such as normal,
+        add-only, remove-only, and single-choice reaction roles.</Feature
+    >
+    <Feature title="Roles on Join">Give members roles immediately on join.</Feature>
+    <Feature title="Statistics Channels">Channels that display various server statistics.</Feature>
+    <Feature title="Temporary Voice Channels">Create as many voice channels in your Discord server without needing to ask admins to create them for you.</Feature>
+    <Feature title="Tickets">Handle tickets in your Discord server. Let members open tickets, get help and close tickets. Comes with an auto close feature and archive feature.</Feature>
+    <Feature title="Verification">This module adds user verification in Discord servers. It prevents bots from accessing your Discord server.</Feature>
+    <Feature title="Welcome and Goodbye messages">Welcome new members, and say goodbye to the ones who leave.</Feature>
+    <Feature title="Word Scramble">Scrambles random English words or words from previous messagse in chat and lets your members unscramble them for extra rewards in the leveling system.</Feature>
+    <Invite />
+</Layout>
