@@ -13,12 +13,14 @@
     align-content: center;
 }
 
-.buttons > span {
+.buttons > a {
     margin: 0 10px;
     transition: 300ms;
+    text-decoration: none;
+    color: white;
 }
 
-.buttons > span:hover {
+.buttons > a:hover {
     cursor: pointer;
     color: rgb(99, 99, 238);
     transition: 300ms;

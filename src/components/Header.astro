@@ -2,16 +2,19 @@
 import styles from "./header.module.css";
 ---
 
-<div class={styles.disclaimer}>DISCLAIMER: This website looks terrible. The developer isn't a web dev.</div>
+<div class={styles.disclaimer}>
+    <span>DISCLAIMER: This website looks terrible. The developer isn't a web dev.</span>
+    <a href="https://codeberg.org/Akabot/akabot-website">Contribute to this website on Codeberg</a>
+</div>
 
 <nav class={styles.navbar}>
     <div class={styles.logowrapper}>
         <span>Akabot Discord Bot</span>
     </div>
     <div class={styles.buttons}>
-        <span>Home</span>
-        <span>Features</span>
-        <span>Support</span>
-        <span>Donate</span>
+        <a href="/">Home</a>
+        <a href="/features">Features</a>
+        <a href="/support-bot">Support for the bot</a>
+        <a href="/support-me">Support the developer</a>
     </div>
 </nav>
