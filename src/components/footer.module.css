@@ -1,0 +1,27 @@
+
+.footer {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    align-items: center;
+}
+
+.footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer div a {
+    text-decoration: none;
+    color: white;
+    transition: 300ms;
+}
+
+.footer div a:hover {
+    color: rgb(99, 99, 237);
+    transition: 300ms;
+}
