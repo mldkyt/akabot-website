@@ -1,1 +1,27 @@
 
+.invitebtn {
+    background-color: rgb(92, 92, 202);
+    border: none;
+    padding: 16px 20px;
+    border-radius: 12px;
+}
+
+.sourcebtn {
+    background-color: rgb(77, 77, 77);
+    border: none;
+    padding: 16px 20px;
+    border-radius: 12px;
+}
+
+.wrapper {
+    text-align: center;
+    margin: auto;
+}
+
+.wrapper button {
+    cursor: pointer;
+}
+
+.wrapper a {
+    text-decoration: none;
+}

@@ -24,8 +24,12 @@ h3 {
 
 .featleft,
 .featright {
-    margin: auto;
+    margin: 8px 32px;
+    padding: 0px 16px;
     width: 70vw;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #181818;
 }
 
 .featright {
