@@ -25,3 +25,9 @@
     margin-left: 50px;
     font-size: 24px;
 }
+
+@media screen and (max-width: 800px) {
+    .image {
+        display: none;
+    }
+}
