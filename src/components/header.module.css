@@ -9,6 +9,13 @@
     height: 50px;
 }
 
+@media screen and (max-width: 1000px) {
+    .navbar {
+        flex-direction: column;
+        justify-content: unset;
+    }
+}
+
 .navbar > div {
     align-content: center;
 }
